@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_totalEnergy"
+    android:layout_width="90dp"
+    android:layout_height="108dp"
+    android:layout_margin="18dp"
+    android:padding="16dp"
+    app:strokeColor="@color/tosca"
+    app:strokeWidth="1dp"
+    app:cardCornerRadius="8dp">
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="8dp"
+        android:text="@string/year"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_regular" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/number"
+        android:textSize="24sp"
+        android:textColor="@color/tosca"
+        android:fontFamily="@font/poppins_bold"
+        android:textAlignment="center" />
+
+</com.google.android.material.card.MaterialCardView>

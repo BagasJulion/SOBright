@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.start.StartActivity">
+
+    <ImageView
+        android:id="@+id/iv_start"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_solarEnergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/Title"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/tosca"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_start" />
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Title"-->
+
+    <TextView
+        android:id="@+id/tv_solarDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/Description"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_solarEnergy"
+        app:layout_constraintStart_toStartOf="@+id/tv_solarEnergy"
+        app:layout_constraintTop_toBottomOf="@+id/tv_solarEnergy" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_solarDescription">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/login"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/register"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn"
+            app:backgroundTint="@null"/>
+
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_register"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="59dp"-->
+<!--            android:layout_marginTop="14dp"-->
+<!--            android:fontFamily="@font/poppins_semibold"-->
+<!--            android:text="@string/register"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:background="@drawable/btn"-->
+<!--            app:backgroundTint="@null"/>-->
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

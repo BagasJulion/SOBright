@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1016652653147",
+    "project_id": "solarenergy-ed60e",
+    "storage_bucket": "solarenergy-ed60e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016652653147:android:1d8b57b4c09f90f173157e",
+        "android_client_info": {
+          "package_name": "com.example.sobright"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaOsV__9CfAEto99pQrJORDaW7NdykQm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016652653147:android:8e16ce69fa84654573157e",
+        "android_client_info": {
+          "package_name": "com.example.solarenergy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaOsV__9CfAEto99pQrJORDaW7NdykQm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
